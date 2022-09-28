@@ -1,0 +1,71 @@
+#addleg,#leg{
+  background-color: rgba(163, 193, 198, 0.283);
+  width: 90%;
+  height: 40%;
+  margin: 4% 5% 0% 5%;
+  border-radius: 15px;
+  padding: 20px;
+}
+#leg{
+  visibility: hidden;
+}
+.leg_row,.row_leg{
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+*{
+  text-transform: capitalize;
+}
+#futures{
+  background-color: #375a9e;
+}
+.select{
+  width: 65px;
+  border: 1px solid white ;
+  border-radius: 25px;
+  height: 20px;
+  margin: 5px;
+}
+.select3{
+  width: 90px;
+  border: 1px solid #375a9e ;
+  border-radius: 25px;
+  height: 20px;
+  margin: 5px;
+  background-color: #375a9e;
+  color: white;
+}
+#lotin,#lotin2{
+  width: 65px;
+  border: 1px solid white ;
+  border-radius: 25px;
+  height: 20px;
+  margin: 5px;
+}
+.select1{
+  width: 90px;
+  border: 1px solid white ;
+  border-radius: 25px;
+  height: 20px;
+  margin: 5px;
+}
+.addleg,#submit{
+width: 100px;
+color: white;
+padding: 5px;
+background-color: #375a9e;
+border-radius: 25px;
+border: 1px solid transparent;
+}
+.cancel,#remove{
+width: 100px;
+padding: 3px;
+border-radius: 25px;
+border: 1px solid transparent;
+}
+#submit{
+margin-top: 10px;
+}
