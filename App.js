@@ -1,6 +1,6 @@
 import './App.css';
 import '../src/components/component.css'
-import {Database } from 'firebase/database';
+import { getDatabase, ref, set } from "firebase/database";
 import {initializeApp} from 'firebase/app'
 import { useState } from 'react'
 
@@ -42,7 +42,8 @@ function App() {
       'momentum':"${data.momentum}",
       'trial_sl':"${data.trial_sl}"
     }`
-    Database.ref('/').set(state);
+    const db = getDatabase();
+  set(ref(db, 'users/'),state);
     console.log('DATA SAVED');
   }
   const submit = () => {
